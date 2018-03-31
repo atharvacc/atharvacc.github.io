@@ -18,7 +18,7 @@
 
 <body >
   <!-- HEADER -->
-  <div class = "pt-5">
+  <div class = "pt-5" id = "Home">
 <h1 class = "text-center"> Atharva Chalke</h1>
 <h2 class = "text-center"> Computer Science and Engineering </h2>
 <h3 class = "text-center"> Technology Management</h3>
@@ -32,26 +32,20 @@
 
         <ul class ="navbar-nav navbar-center">
           <li class = "navbar-item px-4 py-4">
-            <a class = "navbar-link mytextcolor " href = "#home"> Home</a></li>
+            <a class = "navbar-link mytextcolor " href = "#Home"> Home</a></li>
 
-          <li class = "navbar-item dropdown px-4 py-4">
-            <a class = "navbar-link dropdown-toggle mytextcolor" href = "" id ="Educationdropdown" role = "button" data-toggle="dropdown"  > Education & skills </a>
-
-            <div class = "dropdown-menu" aria-labelledby ="Educationdropdown">
-              <a class = "dropdownitem" href = "">Education </a>
-              <a class = "dropdownitem" href = "">Courses </a>
-              <a class = "dropdownitem" href = "">Skills </a>
-            </div>
-
+          <li class = "navbar-item px-4 py-4">
+            <a class = "navbar-link mytextcolor" href = "#Education"> Education & Skills</a></li>
+            
             
 
           </li>
 
           <li class = "navbar-item px-4 py-4"> 
-            <a class = "navbar-link mytextcolor" href = "Projects"> Projects </a></li>
+            <a class = "navbar-link mytextcolor" href = "#Projects"> Projects </a></li>
 
           <li class = "navbar-item px-4 py-4">
-            <a class = "navbar-link mytextcolor" href = "Extracurricular"> Extracurriculars</a></li>
+            <a class = "navbar-link mytextcolor" href = "#Extracurricular"> Extracurriculars</a></li>
 
 
           </ul>
@@ -68,8 +62,7 @@
 
 
 <!-- Home -->
-
-  <div class = "container py-2" id = "#home">
+  <div class = "container py-2"  >
     <div class = "row">
       <div class = "col-5">
         <img src = "ProfilePic.png" height = 500px > 
@@ -82,11 +75,12 @@
     </div>
   </div><
   <!--END OF HOME -->
+  <div id = "Education"></div>
 <hr>
 
   <!--Education -->
 
-  <div class = "container py-2 " id = "EducationandSkills">
+  <div class = "container py-2 ">
     <div class = "row">
       <div class ="col-5 pl-4">
         <h1 class = "" id="Education"><u>Education & Skills</u></h1>
@@ -108,11 +102,11 @@
     </div>
   </div>
 <!-- END OF EDUCATION -->
-<hr>
+<div id = "Projects"></div><hr>
 
 <!-- Projects -->
 
-<div class = "container py-2" id = "Projects">
+<div class = "container py-2" ">
   <div class = "row">
     <div class ="col-5 "><br><br><br>
       <img src = "CSPROJECTS.gif" >
@@ -133,7 +127,7 @@
 
 <!--Extra Curriculars -->
 <hr>
-<div class = "container">
+<div class = "container" id = "Extracurricular">
   <div class = "row">
     <div class = "col-5 pt-5">
       <h1> <u> Extracurricular Activites</u></h1>
