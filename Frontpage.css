@@ -28,7 +28,36 @@ p.ftr{
 	font-size: 10px;
 }
 
+p{
+	font-family: Avenir;
+	font-size:20px;
+	letter-spacing: 1px
+}
 .border1{
 	border-style: solid;
 	border-color: Black;
+}
+
+h1.name{
+	font-family: Aileron;
+	font-size: 70px;
+	font-weight: 500;
+}
+
+h1.headd{
+	font-family: Aileron;
+	
+}
+
+
+h2.name{
+	font-family: Aileron;
+	font-size: 50px;
+	font-weight: 500;
+}
+
+h3.name{
+	font-family: Aileron;
+	font-size: 40px;
+	font-weight: 500;
 }
