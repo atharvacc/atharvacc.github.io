@@ -20,6 +20,11 @@
 	color:Slategray;
 }
 
+.border1{
+	border-style: solid;
+	border-color: Black;
+}
+
 .githubcc{
 	color: #333;
 }
@@ -31,21 +36,21 @@ p.ftr{
 p{
 	font-family: Avenir;
 	font-size:20px;
-	letter-spacing: 1px
+	letter-spacing: 1px;
+	color: rgb(233, 235, 237);
 }
-.border1{
-	border-style: solid;
-	border-color: Black;
-}
+
 
 h1.name{
 	font-family: Aileron;
-	font-size: 70px;
+	font-size: 50px;
 	font-weight: 500;
+	color: rgb(233, 235, 237);
 }
 
 h1.headd{
 	font-family: Aileron;
+	color: rgb(233, 235, 237);
 	
 }
 
@@ -54,10 +59,13 @@ h2.name{
 	font-family: Aileron;
 	font-size: 50px;
 	font-weight: 500;
+	color: rgb(233, 235, 237);
 }
 
 h3.name{
 	font-family: Aileron;
-	font-size: 40px;
+	font-size: 50px;
 	font-weight: 500;
+	color: rgb(233, 235, 237);
 }
+
